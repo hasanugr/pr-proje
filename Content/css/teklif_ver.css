@@ -1,0 +1,422 @@
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Top White Space */
+.offer-special {
+    position: relative;
+    padding: 24px;
+    margin-top: 16px;
+    margin-bottom: 15px;    
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .offer-product-image {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-color: #f0f0f0 !important;
+        width: 72px;
+        height: 72px;
+        float: left;
+        background-size: cover !important;
+    }
+
+    .offer-product-detail {
+        height: 72px;
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+        .product-name {
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #343434;
+        }
+
+        .product-date-adress {
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #343434;
+        }
+
+    .offer-direct-button {
+        height: 100%;
+        float: right;
+    }
+
+        .direct-button {
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: right;
+            color: #A6CA53;
+        }
+
+        .direct-button:hover {
+            color: #5e8012;
+        }
+
+
+/* Middle White Space / Left Part */
+.offer-detail {
+    position: relative;
+    padding: 24px 9px;   
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .offer-detail .offer-detail-field {
+        margin-bottom: 15px;
+    }
+
+    .offer-detail .field-title {
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #343434;
+    }
+
+    .offer-detail .field-exp {
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #848383;
+    }
+
+    .offer-detail .form-control, .offer-detail .select2-selection {
+        border: 1px solid #BEBEBE !important;
+        box-sizing: border-box !important;
+        border-radius: 4px !important;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .offer-detail .pointer {
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #343434;
+        padding-left: 20px;
+    }
+
+    .offer-detail .pointer input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .offer-detail .pointer .checkmark {
+        position: absolute;
+        top: 14;
+        left: 0;
+        height: 13px;
+        width: 13px;
+        border: 1px solid #BEBEBE;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+    
+    .offer-detail .pointer:hover input ~ .checkmark {
+        background-color: #ddd;
+    }
+    
+    .offer-detail .pointer input:checked ~ .checkmark {
+        background-color: #A6CA53;
+        border: 1px solid #A6CA53;
+    }
+
+    .offer-detail .warn-title {
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #848383;
+    }
+
+    .offer-detail .warn-text {
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #848383;
+        margin-bottom: 10px;
+    }
+
+        .offer-detail .warn-text .warn-bold {
+            font-weight: bold;
+            color: #343434;
+        }
+
+
+
+/* Middle White Space / Right Part */
+.offer-properties {
+    
+}
+
+    .offer-properties table {
+        width: 100%;
+    }
+
+    .offer-properties table tbody tr:not(:last-child) {
+        border-bottom: 1px solid #bebebe;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+        .offer-properties table tbody tr td {
+            min-width: 150px;
+            font-family: Montserrat-Medium;
+            font-size: 16px;
+            padding: 8px 0;
+        }
+
+            .offer-properties table tbody tr td:nth-child(1) {
+                color: #848383;
+            }
+            .offer-properties table tbody tr td:nth-child(2) {
+                color: #343434;
+                text-align: right;
+            }
+
+            .offer-properties table tbody tr:last-child td:nth-child(2) {
+                font-weight: bold;
+            }
+
+    .offer-complete-button {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 4px;
+        background-color: #A6CA53;
+        color: #f8f8f8 !important;
+        font-family: Montserrat-Medium;
+        padding: 10px 40px;
+        cursor: pointer !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .offer-cancel-button {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 4px;
+        color: #343434 !important;
+        font-family: Montserrat-Medium;
+        padding: 10px 40px;
+        cursor: pointer !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+/* Bottom White Space (Informations) */
+
+.offer-informations {
+    position: relative;
+    padding: 24px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 3px solid #EB5757;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+    .offer-informations .inf-title {
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #343434;
+        margin-bottom: 20px;
+    }
+
+    .offer-informations .inf-text {
+        display: block;
+        font-family: Montserrat-Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #848383;
+        margin-bottom: 5px;
+    }
+
+        .offer-informations .inf-text .inf-bold {
+            font-weight: bold;
+            color: #343434;
+        }
+
+
+/* Success Modal */
+#offerSuccessModal {
+
+}
+
+    #offerSuccessModal .modal-header {
+        display: block;
+        border: unset !important;
+        padding: 65 65 10 65; 
+        flex-direction: column;
+    }
+
+        #offerSuccessModal .close-button {
+            position: absolute;
+            right: 15px;
+            top: 0px;
+            border: unset;
+            background: unset;
+            color: #343434;
+            font-size: 40px;
+        }
+
+            #offerSuccessModal .close-button:focus {
+                outline: unset !important;
+            }
+
+        #offerSuccessModal .modal-title {
+            width: 333px;
+            margin: auto;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #D7D7D7;
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: #A9CC61;
+        }
+
+    #offerSuccessModal .modal-body {
+        display: block;
+        padding: 10 65 10 65; 
+        flex-direction: column;
+    }
+        
+        #offerSuccessModal .modal-status-message {
+            display: block;
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            color: #343434;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        #offerSuccessModal .modal-text {
+            display: block;
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #848383;
+            margin-bottom: 10px;
+        }
+
+            #offerSuccessModal .modal-text .text-bold {
+                font-weight: bold;
+            }
+
+        #offerSuccessModal .modal-offer-details {
+            display: block;
+            padding-top: 10px;
+        }
+
+        #offerSuccessModal .modal-table-title {
+            font-family: Montserrat-Medium;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            color: #848383;
+        }
+
+        #offerSuccessModal table {
+            width: 100%;
+        }
+
+        #offerSuccessModal table tbody tr {
+            border-bottom: 1px solid #bebebe;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        #offerSuccessModal table tbody tr td {
+            font-family: Montserrat-Medium;
+            font-size: 16px;
+            padding: 8px 0;
+        }
+
+            #offerSuccessModal table tbody tr td:nth-child(1) {
+                color: #848383;
+            }
+            #offerSuccessModal table tbody tr td:nth-child(2) {
+                color: #343434;
+                text-align: right;
+            }
+
+            #offerSuccessModal table tbody tr:last-child td:nth-child(2) {
+                font-weight: bold;
+            }
+
+    #offerSuccessModal .modal-footer {
+        display: block;
+        border: unset !important;
+        padding: 10 65 65 65; 
+        flex-direction: column;
+    }
+
+        #offerSuccessModal .home-button {
+            display: block;
+            width: fit-content;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 4px;
+            background-color: #A6CA53;
+            border: 1px solid #A6CA53;
+            color: #f8f8f8 !important;
+            font-family: Montserrat-Medium;
+            padding: 10px 40px;
+            cursor: pointer !important;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        #offerSuccessModal .home-button:focus {
+            box-shadow: unset !important;
+        }
